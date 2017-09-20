@@ -1,4 +1,4 @@
-public class DemoAritmatika{
+public class DemoAritmatika {
 
 	public static void main(String[] args) {
 		//sedikit angka
@@ -6,41 +6,41 @@ public class DemoAritmatika{
 		int j = 42;
 		double x = 27.475;
 		double y = 7.22;
-		System.out.printIn("Nilai dari variabel ...");
-		System.out.printIn(" i = " + i);
-		System.out.printIn(" j = " + j );
-		System.out.printIn(" x = " + x );
-		System.out.printIn(" y = " + y );
+
+		System.out.println("Nilai dari variabel . . .");
+		System.out.println(" i = " + i);
+		System.out.println(" j = " + j);
+		System.out.println(" x = " + x);
+		System.out.println(" y = " + y);
 
 		//penjumlahan angka
-		System.out.printIn(" Adding ... ");
-		System.out.printIn(" i + j = " + (i + j));
-		System.out.printIn(" x + y = " + (x + j));
+		System.out.println("Adding. . .");
+		System.out.println(" i + j = " + (i + j));
+		System.out.println(" x + y + " + (x + y));
 
 		//pengurangan angka
-		System.out.printIn(" Subtracting ... ");
-		System.out.printIn(" i - j = " + (i - j));
-		System.out.printIn(" x - y = " + (x - j));
+		System.out.println("Subtracting. . .");
+		System.out.println(" i - j = " + (i - j));
+		System.out.println(" x - y = " + (x - y));
 
 		//perkalian angka
-		System.out.printIn(" Multiplying ... ");
-		System.out.printIn(" i * j = " + (i * j));
-		System.out.printIn(" x * y = " + (x * j));
+		System.out.println("Multiplying. . .");
+		System.out.println(" i * j = " + (i * j));
+		System.out.println(" x * y = " + (x * y));
 
 		//pembagian angka
-		System.out.printIn(" Dividing ... ");
-		System.out.printIn(" i / j = " + (i / j));
-		System.out.printIn(" x / y = " + (x / j));
+		System.out.println("Dividing. . .");
+		System.out.println(" i / j = " + (i / j));
+		System.out.println(" x / y = " + (x / y));
 
 		//menghitung hasil modulus dari pembagian
-		System.out.printIn(" Computing the remainded ... ");
-		System.out.printIn(" i % j = " + (i % j));
-		System.out.printIn(" x % y = " + (x % j));
+		System.out.println("Computing the remainder. . .");
+		System.out.println(" i % j = " + (i % j));
+		System.out.println(" x % y = " + (x % y));
 
-		//tipe penggabungan
-		System.out.printIn(" Mixing tipes ... ");
-		System.out.printIn(" i + j = " + (i + j));
-		System.out.printIn(" x * y = " + (x * j));
-
+		//tipe pengubahan
+		System.out.println("Mixing tipes. . .");
+		System.out.println("j + y = " + (j + y));
+		System.out.println("i * x = " + (i * x));
 	}
 }
