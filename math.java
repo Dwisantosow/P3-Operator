@@ -1,34 +1,32 @@
-public class Demomath {
+public  class DemoMath {
+	
+	public static void main(String[] args) {
+		int a=1, b=2, c=3;
+		double x=2.24, y=7.49, z=7.50;
 
-	public static void main(String[] args{
-	int a=1, b=2, c=3;
-	double x=22.24, y=7.49, z=7.50;
-	
-		//Max dan min
-		System.out.printIn('Max int : " + Match.max(a, b ));
-		System.out.printIn('Max double : " + Match.max(y , z ));
-	
+		//max dan min
+		System.out.println("Max int : " + Math.max(a,b));
+		System.out.println("Min double : " + Math.min(y,z));
+
 		//nilai x
-		System.out.printIn("ceil x : " + match.ceil(x));
-		System.out.printIn("ceil x : " + match.floor(x));
-		System.out.printIn("ceil x : " + match.round(x));
+		System.out.println("Ceil x : " + Math.ceil(x));
+		System.out.println("Floor x : " + Math.floor(x));
+		System.out.println("Round x : " + Math.round(x));
 
 		//nilai y
-		System.out.printIn("ceil y : " + match.ceil(y));
-		System.out.printIn("ceil y : " + match.floor(y));
-		System.out.printIn("ceil y : " + match.round(y));
+		System.out.println("Ceil y : " + Math.ceil(y));
+		System.out.println("Floor y : " + Math.floor(y));
+		System.out.println("Round y : " + Math.round(y));
 
 		//nilai z
-		System.out.printIn("ceil z : " + match.ceil(z));
-		System.out.printIn("ceil z : " + match.floor(z));
-		System.out.printIn("ceil z : " + match.round(z));
+		System.out.println("Ceil z : " + Math.ceil(z));
+		System.out.println("Floor z : " + Math.floor(z));
+		System.out.println("Round z : " + Math.round(z));
 
-		//nilai random, pangkat
-		System.out.printIn("Random= 1 : " + Math.random ());
-		System.out.printIn("Random= 2 : " + Math.random ());
-		System.out.printIn("Random= 3 : " + Math.random ());
-		System.out.printIn("Perangkat b,c : " + Math.pow(b,c));
-
-		}
-
+		//Nila random, pangkat
+		System.out.println("Random-1 : " + Math.random());	
+		System.out.println("Random-2 : " + Math.random());
+		System.out.println("Random-3 : " + Math.random());
+		System.out.println("Pangkat b,c : " + Math.pow(b,c));
+	}
 }
